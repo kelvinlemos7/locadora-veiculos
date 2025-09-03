@@ -36,15 +36,14 @@ Os scripts estão organizados na pasta `/scripts`, e devem ser executados na seg
 - `01-criacao-banco.sql` – Criação do banco e tabelas com constraints.
 - `02-inserts.sql` – Inserção de dados fictícios em todas as tabelas.
 - Consultas:
-  - `03-consulta-manutencao.sql` – Lista as manutenções feitas.
-  - `04-consulta-arrecadado.sql` – Soma total arrecadado em pagamentos pagos.
-  - `05-consulta-locacoes.sql` – Mostra os veículos mais alugados.
-  - `06-consulta-pendentes.sql` – Lista clientes com valores pendentes.
+  - `01-consulta-manutencao.sql` – Lista as manutenções feitas.
+  - `02-consulta-arrecadado.sql` – Soma total arrecadado em pagamentos pagos.
+  - `03-consulta-locacoes.sql` – Mostra os veículos mais alugados.
+  - `04-consulta-pendentes.sql` – Lista clientes com valores pendentes.
 
 ## Tecnologias utilizadas
 
 - MySQL – Criação e manipulação do banco.
-- Workbench (opcional) – Para visualizar e modelar o banco graficamente.
 - GitHub – Armazenamento e versionamento do projeto.
 
 ## Como executar
@@ -52,7 +51,7 @@ Os scripts estão organizados na pasta `/scripts`, e devem ser executados na seg
 1. Abra o MySQL Workbench ou terminal MySQL.
 2. Execute o script `01-criacao-banco.sql`.
 3. Execute o script `02-inserts.sql`.
-4. Use os scripts 03 a 06 para fazer consultas.
+4. Use o scripts 03 para fazer consultas.
 
 ## Autor
 
